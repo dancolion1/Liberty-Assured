@@ -1,0 +1,99 @@
+.card {
+    border-radius: 0.625rem;
+    min-height: 9.4375rem;
+  
+    .blue-card {
+      // background: url("../svgs/svg3.svg");
+      // background-repeat: no-repeat;
+      // background-position: bottom right;
+  
+      .btn{
+        // padding: 1.2rem 0rem;
+        border-radius: 0.4375rem;
+      }
+      .svg1 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+  
+      .figures-label {
+        color: #cdcdcd;
+        font-family: $fontNunito;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+  
+      .figures {
+        font-family: $fontSora;
+        color: #fff;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .card-inner {
+      border-radius: 0.625rem;
+  
+      .card-select {
+        background-color: #eaf4ff;
+      }
+  
+      .figures {
+        font-family: $fontSora;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.9375rem; /* 221.429% */
+        letter-spacing: 0.0725rem;
+      }
+  
+      .label {
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 0.9375rem; /* 125% */
+        letter-spacing: 0.01rem;
+      }
+      .figures-label {
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.9375rem; /* 125% */
+        letter-spacing: 0.01rem;
+      }
+    }
+  }
+  
+  .charts-card {
+    color: #000;
+    .label-indicator-container {
+      width: min-content;
+      
+    }
+    .label-indicators {
+      font-size: 0.8rem;
+      margin: 0;
+    }
+  
+    .divider {
+      border: 1px dashed #C4C4C4;
+    }
+    .indicator-label {
+      color: #37474f;
+      font-variant-numeric: lining-nums proportional-nums;
+      font-family: Nunito;
+      font-size: 0.625rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 0.9375rem; /* 150% */
+      letter-spacing: 0.01rem;
+    }
+  }

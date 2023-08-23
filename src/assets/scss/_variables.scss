@@ -1,0 +1,26 @@
+$primaryColor: #032282;
+$secondaryColor: #F6FAFF;
+$mutedColor: #4F64A7;
+$lightColor: #FFFFFF26;
+$fontSize: 0.875rem;
+$fontSora: "Sora";
+$fontNunito: "Nunito";
+
+.bg-primary{
+    background-color: $primaryColor!important;
+}
+.bg-secondary{
+    background-color: $secondaryColor!important;
+}
+.bg-light{
+    background-color: #fff!important;
+}
+.text-muted{
+    color: $mutedColor!important;
+}
+.text-primary{
+    color: $primaryColor!important;
+}
+.text-secondary{
+    color: $secondaryColor!important;
+}

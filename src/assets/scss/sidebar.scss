@@ -1,0 +1,59 @@
+.sidebar {
+    background-color: #07112d;
+    position: fixed;
+    overflow-y: auto;
+    transition: 0.3s;
+    width: inherit;
+    z-index: 1000; /* Adjust the z-index as needed */
+  
+    .active {
+      background: #192749;
+      border-radius: 12px;
+  
+      svg{
+        color: #5879FD!important;
+      }
+    }
+  
+    .brand-title {
+      color: #fff;
+      font-family: Clash Display;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .brand-subtitle {
+      color: #fff;
+      font-family: Clash Display;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .divider {
+      border: 1px dashed #fff;
+      opacity: 0.2;
+      margin: 0.3rem 0;
+    }
+    svg {
+      margin-right: 0.5rem;
+    }
+  
+    /* Sidebar Links Styles */
+    a {
+      padding: 1rem 1rem;
+      text-decoration: none;
+      display: block;
+      color: #fff;
+      font-family: Nunito;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  
+    a:hover {
+      background-color: #555;
+    }
+  }

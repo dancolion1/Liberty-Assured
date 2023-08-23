@@ -1,0 +1,25 @@
+@import "variables";
+@import "buttons";
+@import "cards";
+@import "sidebar";
+@import "buttons";
+@import "navbar";
+@import "dashboard";
+
+:root {
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #ffffff!important;
+  }
+}
+
+body {
+  background-color: #07112d;
+  font-family: $fontNunito;
+
+  a {
+    text-decoration: none;
+  }
+}

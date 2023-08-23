@@ -1,0 +1,12 @@
+.main-content {
+    background: #f8f9fb;
+    min-height: 100vh;
+    border-radius: 1.875rem;
+    // margin: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      padding-top: 8rem;
+    }
+  }
